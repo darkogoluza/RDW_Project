@@ -48,6 +48,11 @@ p {
 
 
 	padding: 0rem 2rem;
+
+}
+
+.paddingBottom{
+	padding-bottom: 4rem;
 }
 
 .section2{
@@ -336,4 +341,77 @@ footer p{
 	margin-right: 0rem;
 }
 
+table.greyGridTable {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+  }
+  table.greyGridTable td, table.greyGridTable th {
+	border: 1px solid #05050557;
+	padding: 7px 10px;
+  }
+  table.greyGridTable tbody td {
+	font-size: 13px;
+  }
+  table.greyGridTable td {
+	background: #323232;
+	font-size: 12px;
+	color: white;
+  }
+
+  table.greyGridTable thead {
+	background: #585858;
+	border-bottom: 4px solid #333333;
+  }
+
+  table.greyGridTable .week{
+	color: #272727;
+  }
+
+  table.greyGridTable thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #a8b9f7;
+	text-align: center;
+	border-left: 2px solid #333333;
+  }
+
+  table.greyGridTable .sdj{
+	  background: #b7c9ff;
+	  color: #323232;
+	  border: none;
+  }
+
+  table.greyGridTable .dma{
+	background: #f58b8b;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .sep{
+	background: #effaa8;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .rdw{
+	background: #8aa7ff;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .ws{
+	background: #f148c4;
+	color: #323232;
+	border: none;
+}
+
+
+  table.greyGridTable thead th:first-child {
+	border-left: none;
+  }
+  
+  table.greyGridTable tfoot td {
+	font-size: 14px;
+  }
 
