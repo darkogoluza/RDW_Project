@@ -72,10 +72,52 @@ p {
 	padding-bottom: 2rem;
 }
 
-.course .section2 {
+.sep .section1 {
 	background-image: 
-	linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-	url('../ArtWork/course_background_2.png');;
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/sep_1.jpg');
+}
+
+.sep .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/sep_2.jpg');
+}
+
+.sdj .section1 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/sdj_1.jpg');
+}
+
+.sdj .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/sdj_2.jpg');
+}
+
+.dma .section1 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/dma_1.jpg');
+}
+
+.dma .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/dma_2.jpg');
+}
+
+.rwd .section1 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/rwd_1.jpg');
+}
+
+.rwd .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/rwd_2.jpg');
 }
 
 .course .section1,
