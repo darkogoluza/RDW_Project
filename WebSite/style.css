@@ -225,6 +225,7 @@ footer a:hover,
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+	animation: blinking 1s infinite alternate;
 }
 
 .section2 h4{
@@ -476,3 +477,15 @@ table.greyGridTable .ws{
 	font-size: 14px;
   }
 
+@keyframes blinking {
+	from {
+		transform: translateY(0);
+		opacity: 100%;
+	}
+
+	to {
+		transform: translateY(15px);
+		opacity: 75%;
+	}
+
+}
