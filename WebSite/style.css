@@ -16,23 +16,31 @@ p {
 
 /* header	*/
 
+footer a:hover,
+.landing_header a:hover {
+	color: #FF9505;
+	transition: .3s;
+}
+
+
 .selected {
 	padding-bottom: .15em;
-	border-bottom: 1px solid #FF9505;
+	/* border-bottom: 1px solid #FF9505; */
 	color: #FF9505 !important;
 	position: relative;
 }
 
-/* .selected::after {
+.selected::after {
+	content: "";
 	position: absolute;
 	display: block;
 	left: 50%;
-	bottom: 0;
-	width: 3px;
-	height: 3px;
+	bottom: -2px;
+	width: 5px;
+	height: 5px;
 	background: #FF9505;
 	border-radius: 50%;
-} */
+}
 
 .section1{
 	background-image:
@@ -41,13 +49,18 @@ p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 
 	position: relative;
 
 
 	padding: 0rem 2rem;
+
+}
+
+.paddingBottom{
+	padding-bottom: 4rem;
 }
 
 .section2{
@@ -57,12 +70,62 @@ p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 100vh;
+	
 	width: 100%;
 
 	position: relative;
 
 	padding: 0rem 2rem;
+
+	padding-bottom: 2rem;
+}
+
+.sep .section1 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/sep_1.jpg');
+}
+
+.sep .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/sep_2.jpg');
+}
+
+.sdj .section1 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/sdj_1.jpg');
+}
+
+.sdj .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/sdj_2.jpg');
+}
+
+.dma .section1 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/dma_1.jpg');
+}
+
+.dma .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/dma_2.jpg');
+}
+
+.rwd .section1 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/rwd_1.jpg');
+}
+
+.rwd .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/courses/rwd_2.jpg');
 }
 
 .course .section1,
@@ -177,6 +240,7 @@ p {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+	animation: blinking 1.5s infinite alternate;
 }
 .arrowwhite{
 	display: block;
@@ -339,13 +403,19 @@ p {
 	border-radius: 100px;
 
 	display: block;
-	margin: 2em auto; 
+	margin:auto; 
+	margin-top: 2rem;
 	width: fit-content;
+	transition: .3s;
 	/* position: absolute;
 	bottom: 40px;
 	left: 50%;
 	transform: translate(-50%); */
 
+}
+
+.schedule_btn:hover {
+	background: #ce7e0f;
 }
 
 .title_sm {
@@ -446,4 +516,89 @@ footer p{
 	margin-right: 0rem;
 }
 
+table.greyGridTable {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+  }
+  table.greyGridTable td, table.greyGridTable th {
+	border: 1px solid #05050557;
+	padding: 7px 10px;
+  }
+  table.greyGridTable tbody td {
+	font-size: 13px;
+  }
+  table.greyGridTable td {
+	background: #323232;
+	font-size: 12px;
+	color: white;
+  }
 
+  table.greyGridTable thead {
+	background: #585858;
+	border-bottom: 4px solid #333333;
+  }
+
+  table.greyGridTable .week{
+	color: #272727;
+  }
+
+  table.greyGridTable thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #a8b9f7;
+	text-align: center;
+	border-left: 2px solid #333333;
+  }
+
+  table.greyGridTable .sdj{
+	  background: #b7c9ff;
+	  color: #323232;
+	  border: none;
+  }
+
+  table.greyGridTable .dma{
+	background: #f58b8b;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .sep{
+	background: #effaa8;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .rdw{
+	background: #8aa7ff;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .ws{
+	background: #f148c4;
+	color: #323232;
+	border: none;
+}
+
+
+  table.greyGridTable thead th:first-child {
+	border-left: none;
+  }
+  
+  table.greyGridTable tfoot td {
+	font-size: 14px;
+  }
+
+@keyframes blinking {
+	from {
+		transform: translateY(0);
+		opacity: 100%;
+	}
+
+	to {
+		transform: translateY(15px);
+		opacity: 75%;
+	}
+
+}
