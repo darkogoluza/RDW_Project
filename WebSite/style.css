@@ -72,6 +72,12 @@ p {
 	padding-bottom: 2rem;
 }
 
+.course .section2 {
+	background-image: 
+	linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+	url('../ArtWork/course_background_2.png');;
+}
+
 .course .section1,
 .course .section2 {
 	height: auto;
