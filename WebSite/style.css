@@ -45,7 +45,7 @@ footer a:hover,
 .section1{
 	background-image:
     linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-    url('../ArtWork/landing_background.jpg');
+    url('../ArtWork/landing_background.jpg'); 
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -82,7 +82,7 @@ footer a:hover,
 
 .sep .section1 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
 		url('../ArtWork/courses/sep_1.jpg');
 }
 
@@ -94,7 +94,7 @@ footer a:hover,
 
 .sdj .section1 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
 		url('../ArtWork/courses/sdj_1.jpg');
 }
 
@@ -106,7 +106,7 @@ footer a:hover,
 
 .dma .section1 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
 		url('../ArtWork/courses/dma_1.jpg');
 }
 
@@ -118,7 +118,7 @@ footer a:hover,
 
 .rwd .section1 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
 		url('../ArtWork/courses/rwd_1.jpg');
 }
 
@@ -129,7 +129,7 @@ footer a:hover,
 }
 .contact .section1 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
 		url('../ArtWork/via_people.jpg');
 		
 	background-size: cover;
@@ -291,7 +291,9 @@ footer a:hover,
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+	animation: blinking 1.5s infinite alternate;
 }
+
 .meetTeam{
 	display: block;
 
@@ -449,7 +451,8 @@ footer a:hover,
     margin-block-end: 2em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-   
+   position: relative;
+   bottom: -120px;
 }
 .second_line_container {
     width: 100%;
@@ -739,14 +742,21 @@ table.greyGridTable .ws{
 	font-size: 14px;
   }
 
+
+.padding_top_bottom{
+	padding-top: 2rem !important;
+	padding-bottom: 2rem !important;
+}
+
+
 @keyframes blinking {
 	from {
-		transform: translateY(0);
+		transform: translate(-50%, 0px);
 		opacity: 100%;
 	}
 
 	to {
-		transform: translateY(15px);
+		transform: translate(-50%, 15px);
 		opacity: 75%;
 	}
 
