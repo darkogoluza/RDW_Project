@@ -127,6 +127,40 @@ footer a:hover,
 		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
 		url('../ArtWork/courses/rwd_2.jpg');
 }
+.contact .section1 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/via_people.jpg');
+		
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100vh;
+	width: 100%;
+
+	position: relative;
+
+
+	padding: 0rem 2rem;
+}
+.contact .section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		url('../ArtWork/via_building.jpg');
+
+		background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100vh;
+	width: 100%;
+
+	position: relative;
+
+
+	padding: 0rem 2rem;
+}
+
+
 
 .course .section1,
 .course .section2 {
@@ -277,7 +311,7 @@ footer a:hover,
 
 .darkoIMG{
 	display: block;
-
+	z-index: 3;
 	position: absolute;
 	bottom: 580px;
 	left: 28%;
@@ -287,13 +321,29 @@ footer a:hover,
 	height: 160px;
 
 	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.darkoWh{
+	display: block;
+	z-index: 1;
+	position: absolute;
+	bottom: 570px;
+	left: 28%;
+	transform: translate(-50%);
+
+	width: 180px;
+	height: 180px;
+
+	background-image: url("../ArtWork/darkoElipseWH.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .davidIMG{
 	display: block;
-
+	z-index: 3;
 	position: absolute;
 	bottom: 580px;
 	left: 72%;
@@ -302,43 +352,140 @@ footer a:hover,
 	width: 160px;
 	height: 160px;
 
-	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-image: url("../ArtWork/maskDavid.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.davidWh{
+	display: block;
+	z-index: 1;
+	position: absolute;
+	bottom: 570px;
+	left: 72%;
+	transform: translate(-50%);
+
+	width: 180px;
+	height: 180px;
+
+	background-image: url("../ArtWork/darkoElipseWH.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .mateuszIMG{
 	display: block;
-
+	z-index: 3;
 	position: absolute;
-	bottom: 190px;
+	bottom: 180px;
 	left: 28%;
 	transform: translate(-50%);
 
 	width: 160px;
 	height: 160px;
 
-	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-image: url("../ArtWork/maskMateusz.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mateuszWh{
+	display: block;
+	z-index: 1;
+	position: absolute;
+	bottom: 170px;
+	left: 28%;
+	transform: translate(-50%);
+
+	width: 180px;
+	height: 180px;
+
+	background-image: url("../ArtWork/darkoElipseWH.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .antonIMG{
 	display: block;
-
+	z-index: 3;
 	position: absolute;
-	bottom: 190px;
+	bottom: 180px;
 	left: 72%;
 	transform: translate(-50%);
 
 	width: 160px;
 	height: 160px;
 
-	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-image: url("../ArtWork/maskAnton.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.antonWh{
+	display: block;
+	z-index: 1;
+	position: absolute;
+	bottom: 170px;
+	left: 72%;
+	transform: translate(-50%);
+
+	width: 180px;
+	height: 180px;
+
+	background-image: url("../ArtWork/darkoElipseWH.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.main_creators {
+	width: 90%;
+	margin: 0 auto;
+}
+.first_line_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+	margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+}
+.second_line_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+	margin-block-start: 19em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.section2 p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px !important;
+	line-height: 132.4%;
+	/* or 48px */
+
+	text-align: center;
+	letter-spacing: -0.005em;
+
+	color: #FFFFFF;
+
+	width: 850px;
+	margin: auto;
+
+	padding-top: 2rem;
+}
+.main_creators p{
+	line-height: 2rem;
+    display: inline;
+    /* margin-top: .5em; */
+    margin-left: 1.5em;
+}
+
+
 
 
 .section2 h4{
@@ -358,6 +505,8 @@ footer a:hover,
 
 	padding-top: 2rem;
 }
+
+
 
 .section2 p:not(.description) {
 	font-style: normal;
