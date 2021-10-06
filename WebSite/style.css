@@ -138,6 +138,21 @@ p {
 	font-size: 24px;
 	line-height: 37px;
 	text-align: center;
+	
+
+	width: 900px;
+	margin: auto;
+
+	color: #FFFFFF;
+
+	margin-top: 1rem;
+}
+.landing_hero h5{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 37px;
+	text-align: center;
 
 	width: 900px;
 	margin: auto;
@@ -163,6 +178,104 @@ p {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.arrowwhite{
+	display: block;
+
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translate(-50%);
+
+	width: 140px;
+	height: 140px;
+
+	background-image: url("../ArtWork/arrow_white.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.meetTeam{
+	display: block;
+
+	position: absolute;
+	bottom: 650px;
+	left: 50%;
+	transform: translate(-50%);
+
+	width: 90px;
+	height: 90px;
+
+	background-image: url("../ArtWork/meet_team_icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.darkoIMG{
+	display: block;
+
+	position: absolute;
+	bottom: 580px;
+	left: 28%;
+	transform: translate(-50%);
+
+	width: 160px;
+	height: 160px;
+
+	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.davidIMG{
+	display: block;
+
+	position: absolute;
+	bottom: 580px;
+	left: 72%;
+	transform: translate(-50%);
+
+	width: 160px;
+	height: 160px;
+
+	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mateuszIMG{
+	display: block;
+
+	position: absolute;
+	bottom: 190px;
+	left: 28%;
+	transform: translate(-50%);
+
+	width: 160px;
+	height: 160px;
+
+	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.antonIMG{
+	display: block;
+
+	position: absolute;
+	bottom: 190px;
+	left: 72%;
+	transform: translate(-50%);
+
+	width: 160px;
+	height: 160px;
+
+	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 
 .section2 h4{
 	font-style: normal;
