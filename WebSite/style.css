@@ -225,7 +225,7 @@ footer a:hover,
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	animation: blinking 1s infinite alternate;
+	animation: blinking 1.5s infinite alternate;
 }
 
 .section2 h4{
