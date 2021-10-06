@@ -16,23 +16,31 @@ p {
 
 /* header	*/
 
+footer a:hover,
+.landing_header a:hover {
+	color: #FF9505;
+	transition: .3s;
+}
+
+
 .selected {
 	padding-bottom: .15em;
-	border-bottom: 1px solid #FF9505;
+	/* border-bottom: 1px solid #FF9505; */
 	color: #FF9505 !important;
 	position: relative;
 }
 
-/* .selected::after {
+.selected::after {
+	content: "";
 	position: absolute;
 	display: block;
 	left: 50%;
-	bottom: 0;
-	width: 3px;
-	height: 3px;
+	bottom: -2px;
+	width: 5px;
+	height: 5px;
 	background: #FF9505;
 	border-radius: 50%;
-} */
+}
 
 .section1{
 	background-image:
@@ -284,11 +292,16 @@ p {
 	margin:auto; 
 	margin-top: 2rem;
 	width: fit-content;
+	transition: .3s;
 	/* position: absolute;
 	bottom: 40px;
 	left: 50%;
 	transform: translate(-50%); */
 
+}
+
+.schedule_btn:hover {
+	background: #ce7e0f;
 }
 
 .title_sm {
