@@ -16,34 +16,6 @@ p {
 	color: #FFFFFF;
 }
 
-/* header	*/
-
-footer a:hover,
-.landing_header a:hover {
-	color: #FF9505;
-	transition: .3s;
-}
-
-
-.selected {
-	padding-bottom: .15em;
-	/* border-bottom: 1px solid #FF9505; */
-	color: #FF9505 !important;
-	position: relative;
-}
-
-.selected::after {
-	content: "";
-	position: absolute;
-	display: block;
-	left: 50%;
-	bottom: -2px;
-	width: 5px;
-	height: 5px;
-	background: #FF9505;
-	border-radius: 50%;
-}
-
 .section1{
 	background-image:
     linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
@@ -82,53 +54,7 @@ footer a:hover,
 	padding-bottom: 2rem;
 }
 
-.sep .section1 {
-	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
-		url('./ArtWork/courses/sep_1.jpg');
-}
 
-.sep .section2 {
-	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
-		url('./ArtWork/courses/sep_2.jpg');
-}
-
-.sdj .section1 {
-	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
-		url('./ArtWork/courses/sdj_1.jpg');
-}
-
-.sdj .section2 {
-	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
-		url('./ArtWork/courses/sdj_2.jpg');
-}
-
-.dma .section1 {
-	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
-		url('./ArtWork/courses/dma_1.jpg');
-}
-
-.dma .section2 {
-	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
-		url('./ArtWork/courses/dma_2.jpg');
-}
-
-.rwd .section1 {
-	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
-		url('./ArtWork/courses/rwd_1.jpg');
-}
-
-.rwd .section2 {
-	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
-		url('./ArtWork/courses/rwd_2.jpg');
-}
 .contact .section1 {
 	background-image: 
 		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
@@ -589,41 +515,6 @@ footer a:hover,
 	color: #FFFFFF;
 }
 
-/* courses */
-
-.main_content {
-	width: 90%;
-	margin: 0 auto;
-}
-
-.main_content .title_sm {
-	margin-top: 3em;
-	display: block;
-}
-
-.main_content p {
-	line-height: 2rem;
-	display: inline;
-	/* margin-top: .5em; */
-	margin-left: 1.5em;
-}
-
-.main_content ul {
-	margin-left: 1.5em;
-	padding-left: 1.5em;
-}
-
-.main_content li{
-	text-align: left;
-	line-height: 2rem;
-	color: #fff;
-}
-
-.line_container {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-}
 
 /* footer */
 
@@ -762,34 +653,6 @@ table.greyGridTable .ws{
 .padding_top_bottom{
 	padding-top: 2rem !important;
 	padding-bottom: 2rem !important;
-}
-
-
-@-webkit-keyframes blinking {
-	from {
-		transform: translate(-50%, 0px);
-		opacity: 100%;
-	}
-
-	to {
-		transform: translate(-50%, 15px);
-		opacity: 75%;
-	}
-
-}
-
-
-@keyframes blinking {
-	from {
-		transform: translate(-50%, 0px);
-		opacity: 100%;
-	}
-
-	to {
-		transform: translate(-50%, 15px);
-		opacity: 75%;
-	}
-
 }
 
 .My_class .via_logo {
@@ -946,3 +809,142 @@ table.greyGridTable .ws{
 	margin-bottom: 4rem;
   }
   
+
+	/*Anton Durcak*/
+
+	
+.main_content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.main_content .title_sm {
+	margin-top: 3em;
+	display: block;
+}
+
+.main_content p {
+	line-height: 2rem;
+	display: inline;
+	/* margin-top: .5em; */
+	margin-left: 1.5em;
+}
+
+.main_content ul {
+	margin-left: 1.5em;
+	padding-left: 1.5em;
+}
+
+.main_content li{
+	text-align: left;
+	line-height: 2rem;
+	color: #fff;
+}
+
+.line_container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+	.sep .section1 {
+		background-image: 
+			linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+			url('./ArtWork/courses/sep_1.jpg');
+	}
+	
+	.sep .section2 {
+		background-image: 
+			linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+			url('./ArtWork/courses/sep_2.jpg');
+	}
+	
+	.sdj .section1 {
+		background-image: 
+			linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+			url('./ArtWork/courses/sdj_1.jpg');
+	}
+	
+	.sdj .section2 {
+		background-image: 
+			linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+			url('./ArtWork/courses/sdj_2.jpg');
+	}
+	
+	.dma .section1 {
+		background-image: 
+			linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+			url('./ArtWork/courses/dma_1.jpg');
+	}
+	
+	.dma .section2 {
+		background-image: 
+			linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+			url('./ArtWork/courses/dma_2.jpg');
+	}
+	
+	.rwd .section1 {
+		background-image: 
+			linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+			url('./ArtWork/courses/rwd_1.jpg');
+	}
+	
+	.rwd .section2 {
+		background-image: 
+			linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+			url('./ArtWork/courses/rwd_2.jpg');
+	}
+
+
+	footer a:hover,
+.landing_header a:hover {
+	color: #FF9505;
+	transition: .3s;
+}
+
+
+.selected {
+	padding-bottom: .15em;
+	/* border-bottom: 1px solid #FF9505; */
+	color: #FF9505 !important;
+	position: relative;
+}
+
+.selected::after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 50%;
+	bottom: -2px;
+	width: 5px;
+	height: 5px;
+	background: #FF9505;
+	border-radius: 50%;
+}
+	
+@-webkit-keyframes blinking {
+	from {
+		transform: translate(-50%, 0px);
+		opacity: 100%;
+	}
+
+	to {
+		transform: translate(-50%, 15px);
+		opacity: 75%;
+	}
+
+}
+
+
+@keyframes blinking {
+	from {
+		transform: translate(-50%, 0px);
+		opacity: 100%;
+	}
+
+	to {
+		transform: translate(-50%, 15px);
+		opacity: 75%;
+	}
+
+}
