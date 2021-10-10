@@ -45,7 +45,7 @@ footer a:hover,
 .section1{
 	background-image:
     linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-    url('../ArtWork/landing_background.jpg'); 
+    url('./ArtWork/landing_background.jpg'); 
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -66,7 +66,7 @@ footer a:hover,
 .section2{
 	background-image:
     linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-    url('../ArtWork/landing_background.jpg');
+    url('./ArtWork/landing_background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -83,54 +83,54 @@ footer a:hover,
 .sep .section1 {
 	background-image: 
 		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/courses/sep_1.jpg');
+		url('./ArtWork/courses/sep_1.jpg');
 }
 
 .sep .section2 {
 	background-image: 
 		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/courses/sep_2.jpg');
+		url('./ArtWork/courses/sep_2.jpg');
 }
 
 .sdj .section1 {
 	background-image: 
 		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/courses/sdj_1.jpg');
+		url('./ArtWork/courses/sdj_1.jpg');
 }
 
 .sdj .section2 {
 	background-image: 
 		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/courses/sdj_2.jpg');
+		url('./ArtWork/courses/sdj_2.jpg');
 }
 
 .dma .section1 {
 	background-image: 
 		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/courses/dma_1.jpg');
+		url('./ArtWork/courses/dma_1.jpg');
 }
 
 .dma .section2 {
 	background-image: 
 		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/courses/dma_2.jpg');
+		url('./ArtWork/courses/dma_2.jpg');
 }
 
 .rwd .section1 {
 	background-image: 
 		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/courses/rwd_1.jpg');
+		url('./ArtWork/courses/rwd_1.jpg');
 }
 
 .rwd .section2 {
 	background-image: 
 		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/courses/rwd_2.jpg');
+		url('./ArtWork/courses/rwd_2.jpg');
 }
 .contact .section1 {
 	background-image: 
 		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/via_people.jpg');
+		url('./ArtWork/via_people.jpg');
 		
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -146,7 +146,7 @@ footer a:hover,
 .contact .section2 {
 	background-image: 
 		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/via_building.jpg');
+		url('./ArtWork/via_building.jpg');
 
 		background-size: cover;
 	background-repeat: no-repeat;
@@ -270,7 +270,7 @@ footer a:hover,
 	width: 58px;
 	height: 57px;
 
-	background-image: url("../ArtWork/arrow_orange.png");
+	background-image: url("./ArtWork/arrow_orange.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -287,7 +287,7 @@ footer a:hover,
 	width: 140px;
 	height: 140px;
 
-	background-image: url("../ArtWork/arrow_white.png");
+	background-image: url("./ArtWork/arrow_white.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -305,7 +305,7 @@ footer a:hover,
 	width: 90px;
 	height: 90px;
 
-	background-image: url("../ArtWork/meet_team_icon.png");
+	background-image: url("./ArtWork/meet_team_icon.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -322,7 +322,7 @@ footer a:hover,
 	width: 160px;
 	height: 160px;
 
-	background-image: url("../ArtWork/maskgroupDarko.png");
+	background-image: url("./ArtWork/maskgroupDarko.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -338,7 +338,7 @@ footer a:hover,
 	width: 180px;
 	height: 180px;
 
-	background-image: url("../ArtWork/darkoElipseWH.png");
+	background-image: url("./ArtWork/darkoElipseWH.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -354,7 +354,7 @@ footer a:hover,
 	width: 160px;
 	height: 160px;
 
-	background-image: url("../ArtWork/maskDavid.png");
+	background-image: url("./ArtWork/maskDavid.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -370,7 +370,7 @@ footer a:hover,
 	width: 180px;
 	height: 180px;
 
-	background-image: url("../ArtWork/darkoElipseWH.png");
+	background-image: url("./ArtWork/darkoElipseWH.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -386,7 +386,7 @@ footer a:hover,
 	width: 160px;
 	height: 160px;
 
-	background-image: url("../ArtWork/maskMateusz.png");
+	background-image: url("./ArtWork/maskMateusz.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -402,7 +402,7 @@ footer a:hover,
 	width: 180px;
 	height: 180px;
 
-	background-image: url("../ArtWork/darkoElipseWH.png");
+	background-image: url("./ArtWork/darkoElipseWH.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -418,7 +418,7 @@ footer a:hover,
 	width: 160px;
 	height: 160px;
 
-	background-image: url("../ArtWork/maskAnton.png");
+	background-image: url("./ArtWork/maskAnton.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -434,7 +434,7 @@ footer a:hover,
 	width: 180px;
 	height: 180px;
 
-	background-image: url("../ArtWork/darkoElipseWH.png");
+	background-image: url("./ArtWork/darkoElipseWH.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -774,7 +774,7 @@ table.greyGridTable .ws{
   
 	background-image: 
 		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/via_people.jpg');
+		url('./ArtWork/via_people.jpg');
 
   
 	background-size: cover;
@@ -858,7 +858,7 @@ table.greyGridTable .ws{
 	/* padding-top: 3rem; */
 	background-image: 
 		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
-		url('../ArtWork/via_building.jpg');
+		url('./ArtWork/via_building.jpg');
 
   
 	background-size: cover;
