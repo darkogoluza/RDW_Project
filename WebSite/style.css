@@ -46,7 +46,7 @@ footer a:hover,
 
 .section1{
 	background-image:
-    linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+    linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
     url('./ArtWork/landing_background.jpg'); 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -67,7 +67,7 @@ footer a:hover,
 
 .section2{
 	background-image:
-    linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+    linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
     url('./ArtWork/landing_background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -84,54 +84,54 @@ footer a:hover,
 
 .sep .section1 {
 	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/courses/sep_1.jpg');
 }
 
 .sep .section2 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/courses/sep_2.jpg');
 }
 
 .sdj .section1 {
 	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/courses/sdj_1.jpg');
 }
 
 .sdj .section2 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/courses/sdj_2.jpg');
 }
 
 .dma .section1 {
 	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/courses/dma_1.jpg');
 }
 
 .dma .section2 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/courses/dma_2.jpg');
 }
 
 .rwd .section1 {
 	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/courses/rwd_1.jpg');
 }
 
 .rwd .section2 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/courses/rwd_2.jpg');
 }
 .contact .section1 {
 	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/via_people.jpg');
 		
 	background-size: cover;
@@ -147,7 +147,7 @@ footer a:hover,
 }
 .contact .section2 {
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/via_building.jpg');
 
 		background-size: cover;
@@ -802,7 +802,7 @@ table.greyGridTable .ws{
 	
   
 	background-image: 
-		linear-gradient(180deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/via_people.jpg');
 
   
@@ -886,7 +886,7 @@ table.greyGridTable .ws{
   .My_section2 {
 	/* padding-top: 3rem; */
 	background-image: 
-		linear-gradient(0deg, rgba(30, 30, 30, 0.67) 0%, #1A1919 100%),
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
 		url('./ArtWork/via_building.jpg');
 
   
